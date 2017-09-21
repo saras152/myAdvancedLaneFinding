@@ -118,4 +118,4 @@ I initially felt that this project is an extension to the first project, the lan
 
 My pipeline is likely to fail in high contrast situations, with more road shadows (like it failed to identify lanes for the chalenge_video.mp4). One of the ways it could be made more robust is to include color filters for detecting lane lines. Another approach would be to create the binary image not by 'OR' logic of all the earlier filters, but assign a priority of each filter, which may be changed dynamically over a period of the time. Also, i did not do any sanity checks for distance between lane lines, or paralality of lane lines, etc. Such checks are a must when dealing with real-life conditions. 
 
-PS: I am pretty sure that my offset calculations are not accurate, but I am not able to identify the problem with my approach. 
+Thanks to to the review inputs, my offset calculations are sane.
